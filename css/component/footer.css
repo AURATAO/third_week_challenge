@@ -1,0 +1,85 @@
+.footer{
+    width: 100%;
+    margin: auto;
+    background-color: var(--main-red);
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+
+.footer .footer_options{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35.98px;
+}
+.footer .navBar ul{
+    gap:48px
+}
+.footer .navBar ul li a{
+    color: white;
+    font-size:16px;
+    font-weight: 24;
+}
+
+
+.footer .footer_options .social_icons {
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer .footer_options .social_icons .img_icon{
+    width: 48px;
+    height: 48px;
+
+}
+
+.footer .phone, .email{
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer .phone img, .email img{
+    width: 36px;
+    height: 36px;
+
+}
+
+.footer .phone p, .email p{
+    color:white;
+    font-size: 36px;
+    font-weight: 34;
+}
+
+.footer .divider{
+    border:none;
+    border-top: 0.5px solid white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.footer .policy{
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.footer .private_policy{
+    justify-content: end;
+    align-items: center;
+    gap:48px;
+    width: 100%;
+}
+.footer .private_policy, .policy p{
+    color: white;
+    font-size: 16px;
+    font-weight: 24;
+
+    width: 322px; /*is there any way make them in the same line without seting width? */
+
+}
+.footer .private_policy h4{
+    color: white;
+    font-size: 14px;
+}

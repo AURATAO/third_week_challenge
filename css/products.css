@@ -1,0 +1,158 @@
+@import url('./global.css');
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*category*/
+
+.product_category{
+    width: 100%;
+    min-width: 100vph;
+    padding-top: 80px;
+}
+
+.product_category {
+ box-sizing: border-box;
+}
+
+.product_category ul{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product_category ul li{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    margin-left: -1px;
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+
+
+.product_category ul li a{
+    color: black;
+    font-size: 32px;
+    font-weight: medium;
+}
+
+/*banner*/
+
+.banner{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.banner_container{
+    width: 960px;
+    height: 296px;
+
+}
+
+.banner_container img{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+/*products*/
+
+.main_products{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50.63px;
+    padding-bottom: 80px;
+}
+.main_products h1{
+    font-size: 42px;
+    font-weight: medium;
+}
+
+.main_products h2{
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 32px;
+}
+
+
+.main_products .products{
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.product_1{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    width: 306px;
+}
+.product_1 img{
+    width: 306px;
+    height: 168px;
+}
+
+
+.product_detail .product_detail_ul{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 88px; /*figure out to use space bewteen but it doexn't work */
+} 
+.product_detail_ul a{
+    font-size:24px;
+    font-weight: medium;
+}
+.product_detail_ul span{
+    color:var(--main-red);
+    font-size:24px;
+    font-weight: medium;
+
+}
+
+.products_color {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.products_color img{
+    width: 24px;
+    height: 24px;
+
+}
+
+/*pagitantion*/
+
+.pagination{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+ 
+}
+
+.pagination ul li{
+    padding:12px 16px;
+    border: 1px solid #555555;
+    margin-left: -1px; /* Offsets the left border to avoid double borders */
+    cursor: pointer; 
+
+}
+.pagination ul li:hover{
+    background-color: #F2F2F2 ;
+}
+
+.pagination ul li a{
+    font-size: 18px;
+    font-size: normal;
+}
+.pagination ul li:last-child a{
+    font-size: 19px;
+}
+
+.pagination ul li:first-child a{
+    font-size: 19px;
+}
