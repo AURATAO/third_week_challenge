@@ -1,10 +1,5 @@
 
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-}
-
 .header{
     background-color: var(--main-red);
     height:80px;
@@ -12,7 +7,6 @@
     position:fixed;
     z-index:1000;
     box-shadow: 0 12px 22px 0 rgba(0,0,0,0.08);
-
 }
 .header > .navBar{
     justify-content: center;
@@ -26,8 +20,6 @@
 .header ul{
     justify-content: space-between;
     gap: 64px;
-    
-    
 }
 
 .header ul li a{
@@ -36,20 +28,63 @@
     font-weight: normal;
 }
 
-
-
 .img_logo{
     width: 80px;
     height: 48.75px;
-    
 }
 
-@media (width <= 1330px){
-   .header{
-    padding-left: 36px;
-    padding-right: 36px;
-   } 
-
-
-
+.navBar_phone{
+    display: none;
 }
+
+@media(max-width:1320px){
+    .header{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+
+@media (max-width:720px){
+
+    .header  .navBar > ul{
+        display:none;
+    }
+
+
+    .navBar_phone{
+        display: block;
+        width: 100%;
+      
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 80px;
+
+        position:fixed;
+        z-index:1000;
+       
+    }
+    .navBar_phone .options{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-left: -1px;
+       
+    }
+
+    .navBar_phone .options h2{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .navBar_phone .options a{
+        border: 1px solid white;
+        background-color: var(--main-red);
+        color: white;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        
+    }
+}
+

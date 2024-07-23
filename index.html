@@ -24,10 +24,20 @@
           </ul>
         </ul>
       </header>
+      <div class="displayFlex navBar_phone">
+        <div class="displayFlex options">
+          <h2><a href="#">系列鏡框</a></h2>
+          <h2><a href="#">門市據點</a></h2>
+        </div>
+        <div class="displayFlex options">
+          <h2><a href="#">部落格</a></h2>
+          <h2><a href="#">常見問題</a></h2>
+        </div>
+      </div>
       <!--main-->
       <main class="home">
         <div class="displayFlex banner">
-          <div class="maxWidth displayFlex">
+          <div class="maxWidth displayFlex banner_content">
             <div class="maxWidth displayFlex headline">
               <h1>Promise-Desert 2020 早春系列</h1>
               <h2>看得清，才能看得遠</h2>
@@ -37,37 +47,43 @@
         </div>
 
         <!--adventage-->
-        <section class="displayFlex adventage">
-          <h2>用專業的心，做專業的事</h2>
-          <div class="maxWidth displayFlex adventage_content">
-            <div class="displayFlex adventage_1">
-              <img src="img/home-section2-1.png" alt="adventage_price" />
-              <h3>單一價格</h3>
-              <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
-            </div>
-            <div class="displayFlex adventage_2">
-              <img src="img/home-section2-1.png" alt="adventage_time" />
-              <h3>20 分鐘即可取件</h3>
-              <p>
-                為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
-                20 分鐘即可完成。
-              </p>
-            </div>
-            <div class="displayFlex adventage_3">
-              <img src="img/home-section2-3.png" alt="adventage_service" />
-              <h3>安心售後服務</h3>
-              <p>
-                我們提供長達 120
-                天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
-              </p>
-            </div>
-            <div class="displayFlex adventage_4">
-              <img src="img/home-sectioin2-4.png" alt="adventage_products" />
-              <h3>關於鏡片</h3>
-              <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+
+        <section class="adventage">
+          <div class="displayFlex">
+            <h2>用專業的心，做專業的事</h2>
+            <div class="maxWidth displayFlex adventage_content">
+              <div class="displayFlex adventage_1">
+                <img src="img/home-section2-1.png" alt="adventage_price" />
+                <h3>單一價格</h3>
+                <p>
+                  無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
+                </p>
+              </div>
+              <div class="displayFlex adventage_2">
+                <img src="img/home-section2-1.png" alt="adventage_time" />
+                <h3>20 分鐘即可取件</h3>
+                <p>
+                  為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+                  20 分鐘即可完成。
+                </p>
+              </div>
+              <div class="displayFlex adventage_3">
+                <img src="img/home-section2-3.png" alt="adventage_service" />
+                <h3>安心售後服務</h3>
+                <p>
+                  我們提供長達 120
+                  天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+                </p>
+              </div>
+              <div class="displayFlex adventage_4">
+                <img src="img/home-sectioin2-4.png" alt="adventage_products" />
+                <h3>關於鏡片</h3>
+                <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+              </div>
             </div>
           </div>
         </section>
+        <!--Classic Category-->
         <section class="displayFlex classic_category">
           <h2>經典系列鏡框</h2>
           <div class="maxWidth displayFlex categories">
@@ -187,38 +203,45 @@
               </label>
             </form>
           </div>
-          <button type="submit" class="button">確認送出</button>
+          <div class="button_container">
+            <button type="submit" class="button">確認送出</button>
+          </div>
         </section>
       </main>
+
       <!--footer-->
       <footer class="footer">
-        <div class="displayFlex maxWidth footer_options">
-          <div class="displayFlex navBar">
-            <ul class="displayFlex">
-              <li><a href="#">首頁</a></li>
-              <li><a href="#">系列鏡框</a></li>
-              <li><a href="#">門市據點</a></li>
-              <li><a href="#">部落格</a></li>
-              <li><a href="#">常見問題</a></li>
-            </ul>
+        <div class="get_flex">
+          <div class="displayFlex maxWidth footer_options">
+            <div class="displayFlex navBar">
+              <ul class="displayFlex">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">系列鏡框</a></li>
+                <li><a href="#">門市據點</a></li>
+                <li><a href="#">部落格</a></li>
+                <li><a href="#">常見問題</a></li>
+              </ul>
+            </div>
+            <div class="displayFlex social_icons">
+              <img src="img/ic-social-fb.png" alt="fb_icon" class="img_icon" />
+              <img src="img/ic_social_ig.png" alt="ig_icon" class="img_icon" />
+              <img
+                src="img/ic_social_line.png"
+                alt="line_icon"
+                class="img_icon"
+              />
+            </div>
           </div>
-          <div class="displayFlex social_icons">
-            <img src="img/ic-social-fb.png" alt="fb_icon" class="img_icon" />
-            <img src="img/ic_social_ig.png" alt="ig_icon" class="img_icon" />
-            <img
-              src="img/ic_social_line.png"
-              alt="line_icon"
-              class="img_icon"
-            />
+          <div class="phone_email">
+            <div class="maxWidth displayFlex phone">
+              <img src="img/icons8-phone-24.png" alt="phone_icon" />
+              <p>0800-000-000</p>
+            </div>
+            <div class="maxWidth displayFlex email">
+              <img src="img/icons8-email-32.png" alt="email_icon" />
+              <p>glasses@business.com</p>
+            </div>
           </div>
-        </div>
-        <div class="maxWidth displayFlex phone">
-          <img src="img/icons8-phone-24.png" alt="phone_icon" />
-          <p>0800-000-000</p>
-        </div>
-        <div class="maxWidth displayFlex email">
-          <img src="img/icons8-email-32.png" alt="email_icon" />
-          <p>glasses@business.com</p>
         </div>
         <hr class="maxWidth divider" />
         <div class="maxWidth displayFlex policy">
