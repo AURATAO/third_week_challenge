@@ -17,7 +17,7 @@
     align-items: center;
     width: 100%;
 
-    background-image: url('/img/home-header.png');
+    background-image: url('img/home-header.png');
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
