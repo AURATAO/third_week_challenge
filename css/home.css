@@ -210,6 +210,10 @@
     .categories > div{
         width: 44%;
     }
+
+    .categories > div > h3{
+        font-style: italic;
+    }
 }
 
 @media(max-width:576px){
