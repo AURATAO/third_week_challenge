@@ -17,7 +17,7 @@
     align-items: center;
     width: 100%;
 
-    background-image: url('./img/home-header.png');
+    background-image: url('https://raw.githubusercontent.com/AURATAO/third_week_challenge/main/img/home-header.png');
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
@@ -537,7 +537,8 @@
     width: 24px;
     border: 2px solid #000000;
     right:515px;
-    top: -2.5px
+    top: -2.5px;
+    left: -1%;
   }
 
 
