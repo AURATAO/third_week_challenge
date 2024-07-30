@@ -5,8 +5,10 @@
 .content{
     width: 100%;
     min-width: 100vph;
-    padding-top: 180px;
+    padding-top: 120px;
     padding-bottom: 80px;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
 .headline{
@@ -47,20 +49,30 @@
 }
 
 /*locations*/
+.locations_container{
+    max-width: 1296px;
+    margin: 0 auto;
+    text-align: center;
+} /*想要貼齊兩邊！！！？？？*/
+
 .locations{
     flex-wrap: wrap;
-    gap:24px;
     row-gap: 48px;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 .location1{
-    width: 416px;   
+    width: 30%; 
+    border: 1px solid #00000020;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .location1 .main_location_pic{
-    width: 416px;
-    height: 224px;
+    max-width: 100%;
     box-sizing: content-box;
+    
 }
 
 .location1 h3{
@@ -68,22 +80,26 @@
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 24px;
+    border-bottom: 1px solid #00000020;
 }
 
 .location1 ul li{
     font-size:20px;
-    font-family: sours;
+    padding-top: 16px;
 }
 
 .location1 .location_info{
     align-items: center;
     gap: 11px;
-  
+    align-items: flex-start;
+    padding-right: 24px;
+    padding-left: 24px;  
 }
 
 .location1 .icon{
     width: 18px;
     height: 18px;
+
 }
 
 .location1 h4{
@@ -97,3 +113,35 @@
     text-align: center;
 }
 
+
+
+@media(max-width:1000px){
+    .locations{
+        margin-left: 0 auto;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+    .location1{
+        width: 45%;
+    }
+}
+
+/*width:986px 台北綠園店字會跑起來*/
+
+@media(max-width:760px){
+    .content{
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 220px;
+
+    }
+    .locations{
+        margin-left: 0 auto;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .location1{
+        width: 100%;
+    }
+}
