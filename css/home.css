@@ -189,8 +189,7 @@
 }
 
 .categories > div > img{
-    width: calc(1296/3); /*don't write the pic*/
-    height: 100%;
+    width: 100%;/*don't write the pic*/
     aspect-ratio: 1;
     padding-bottom: 8px;
 } 
@@ -204,10 +203,15 @@
 @media(max-width:992px){
     .categories{
         flex-direction: column;
+    }
 
+    .categories{
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 24px;
     }
     .categories > div{
-        width: 44%;
+        width: 50%;
     }
 
     .categories > div > h3{

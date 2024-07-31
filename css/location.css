@@ -83,6 +83,10 @@
     border-bottom: 1px solid #00000020;
 }
 
+.location1 ul{
+    min-height: 168px;
+}
+
 .location1 ul li{
     font-size:20px;
     padding-top: 16px;
@@ -126,9 +130,8 @@
     }
 }
 
-/*width:986px 台北綠園店字會跑起來*/
 
-@media(max-width:760px){
+@media(max-width:770px){
     .content{
         padding-left: 14px;
         padding-right: 14px;
@@ -143,5 +146,21 @@
 
     .location1{
         width: 100%;
+    }
+
+ 
+}
+
+@media(max-width:476px){
+    .regionSelect{
+        align-items: center;
+    }
+    .regionSelect > label{
+        font-size:16px;
+        
+    }
+
+    .regionSelect select{
+        width: 80%;
     }
 }
