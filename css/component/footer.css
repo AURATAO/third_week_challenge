@@ -44,10 +44,10 @@
 
 }
 
-.footer .phone p, .email p{
+.footer .phone a, .email a{
     color:white;
     font-size: 36px;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .footer .divider{
@@ -72,7 +72,7 @@
 .footer .private_policy, .policy p{
     color: white;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
 
     width: 100%; /*is there any way make them in the same line without setting width? */
 
