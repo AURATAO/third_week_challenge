@@ -64,6 +64,11 @@
     }
 
 }
+@media(max-width:800px){
+    .banner{
+        background-image: url('../img/home-header-sm.png');
+    }
+}
 
 @media (max-width:685px){
     .headline h1{
@@ -408,9 +413,7 @@
     
 }
 
-
-
-.person_recommendation .recommendation_container > p{
+.person_recommendation .recommendation_container > time{
     font-size: 14px;
     color:#707070;
     font-weight: normal;

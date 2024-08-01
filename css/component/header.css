@@ -1,8 +1,8 @@
 
-
 .header{
     background-color: var(--main-red);
-    height:80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     position:fixed;
     z-index:1000;
@@ -46,7 +46,7 @@
 
 @media (max-width:730px){
 
-    .header  .navBar > ul{
+    .header  .navBar > li > ul{
         display:none;
     }
 

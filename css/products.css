@@ -27,17 +27,22 @@
     width: 100%;
     text-align: center;
     border: 1px solid #DCDCDC;
+    border-top: 0;
     margin-left: -1px;
     padding-top:24px;
     padding-bottom: 24px;
 }
 
-
+.product_category ul li:hover{
+    border-bottom: 6px solid #AA0601;
+}
 .product_category ul li a{
+    display: block;
     color: black;
     font-size: 32px;
     font-weight: medium;
 }
+
 @media(max-width:670px){
     .product_category ul li a{
         font-size:24px;
